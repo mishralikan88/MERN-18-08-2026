@@ -59,213 +59,209 @@ PHASE 1 — FULL-STACK BASICS & PROJECT SETUP
    └── Requirement → Technical Breakdown       ✅
 
 
-https://chatgpt.com/c/6a842c29-ff24-83e8-bfaa-5d125912cab4
+2. DEVELOPMENT SETUP                                      ✅
 
-
-2. DEVELOPMENT SETUP                                      
-
-   ├── 2.1 Node + npm                                     ✅
-   │   ├── What is Node.js?                               ✅
-   │   ├── JavaScript runtime                             ✅
-   │   ├── What is npm?                                   ✅
-   │   ├── Packages                                       ✅
-   │   ├── Dependencies                                   ✅
-   │   ├── package.json                                   ✅
-   │   ├── package-lock.json                              ✅
-   │   ├── node_modules                                   ✅
-   │   └── npm install                                    ✅
-   │
-   ├── 2.2 React + TypeScript + Vite                      ⏳
-   │   ├── React's role in the project                    ⏳
-   │   ├── TypeScript's role                              ⏳
-   │   ├── What is Vite?                                  ⏳
-   │   ├── Vite development server                        ⏳
-   │   ├── Client project structure                       ⏳
-   │   ├── src folder                                     ⏳
-   │   ├── main.tsx                                       ⏳
-   │   ├── App.tsx                                        ⏳
-   │   ├── index.html                                     ⏳
-   │   ├── vite.config.ts                                 ⏳
-   │   └── tsconfig files                                 ⏳
-   │
-   ├── 2.3 Express + TypeScript                           ⏳
-   │   ├── What is Express?                               ⏳
-   │   ├── Node.js vs Express                             ⏳
-   │   ├── Creating Express application                   ⏳
-   │   ├── app.listen()                                   ⏳
-   │   ├── PORT                                           ⏳
-   │   ├── Routes                                         ⏳
-   │   ├── req / res                                      ⏳
-   │   ├── Middleware                                     ⏳
-   │   ├── app.use()                                      ⏳
-   │   ├── express.json()                                 ⏳
-   │   └── TypeScript on the backend                      ⏳
-   │
-   ├── 2.4 Git + GitHub                                   ⏳
-   │   ├── Git vs GitHub                                  ⏳
-   │   ├── Repository                                     ⏳
-   │   ├── git init                                       ⏳
-   │   ├── git status                                     ⏳
-   │   ├── git add                                        ⏳
-   │   ├── git commit                                     ⏳
-   │   ├── git push                                       ⏳
-   │   └── .gitignore                                     ⏳
-   │
-   ├── 2.5 React → Express                                ⏳
-   │   ├── Client and server run separately               ⏳
-   │   ├── Client port vs server port                     ⏳
-   │   ├── API_URL                                        ⏳
-   │   ├── fetch()                                        ⏳
-   │   ├── Sending HTTP request                           ⏳
-   │   ├── Receiving HTTP response                        ⏳
-   │   ├── res.json()                                     ⏳
-   │   └── React → HTTP → Express flow                    ⏳
-   │
-   ├── 2.6 CORS                                           ⏳
-   │   ├── Why CORS is required                           ⏳
-   │   ├── Origin                                         ⏳
-   │   ├── localhost:5173 vs localhost:5000               ⏳
-   │   ├── cors package                                   ⏳
-   │   └── app.use(cors())                                ⏳
-   │
-   ├── 2.7 Environment Variables                          ⏳
-   │   ├── What is an environment variable?               ⏳
-   │   ├── .env file                                      ⏳
-   │   ├── Why we use .env                                ⏳
-   │   ├── PORT                                           ⏳
-   │   ├── MONGO_URI                                      ⏳
-   │   ├── Why secrets shouldn't be hardcoded             ⏳
-   │   ├── dotenv package                                 ⏳
-   │   ├── dotenv.config()                                ⏳
-   │   ├── process.env                                    ⏳
-   │   ├── process.env.PORT                               ⏳
-   │   ├── process.env.MONGO_URI                          ⏳
-   │   ├── `as string`                                    ⏳
-   │   ├── .env + .gitignore                              ⏳
-   │   └── Why .env should not be pushed to GitHub        ⏳
-   │
-   ├── 2.8 MongoDB Atlas + Mongoose                       ⏳
-   │   ├── MongoDB's role                                 ⏳
-   │   ├── What is MongoDB Atlas?                         ⏳
-   │   ├── Local database vs cloud database               ⏳
-   │   ├── Atlas project / deployment                     ⏳
-   │   ├── Database user                                  ⏳
-   │   ├── Database username + password                   ⏳
-   │   ├── Network access                                 ⏳
-   │   ├── IP access                                      ⏳
-   │   ├── Connection string / URI                        ⏳
-   │   ├── What is Mongoose?                              ⏳
-   │   └── MongoDB vs Mongoose                            ⏳
-   │
-   ├── 2.9 Database Connection                            ⏳
-   │   ├── mongoose.connect()                             ⏳
-   │   ├── MONGO_URI                                      ⏳
-   │   ├── Connection Promise                             ⏳
-   │   ├── .then()                                        ⏳
-   │   ├── .catch()                                       ⏳
-   │   ├── Successful connection                          ⏳
-   │   ├── Failed connection                              ⏳
-   │   ├── app.listen() after DB connection               ⏳
-   │   └── Complete database connection flow              ⏳
-   │
-   ├── 2.10 Employee Model                                ⏳
-   │   ├── What is a Schema?                              ⏳
-   │   ├── What is a Model?                               ⏳
-   │   ├── Schema vs Model                                ⏳
-   │   ├── IEmployee interface                            ⏳
-   │   ├── Schema<IEmployee>                              ⏳
-   │   ├── String fields                                  ⏳
-   │   ├── Number fields                                  ⏳
-   │   ├── required: true                                 ⏳
-   │   ├── unique: true                                   ⏳
-   │   ├── timestamps: true                               ⏳
-   │   ├── _id                                            ⏳
-   │   ├── createdAt / updatedAt                          ⏳
-   │   └── model<IEmployee>()                             ⏳
-   │
-   ├── 2.11 POST /api/employees                           ⏳
-   │   ├── app.post()                                     ⏳
-   │   ├── /api/employees                                 ⏳
-   │   ├── Request object — req                           ⏳
-   │   ├── Response object — res                          ⏳
-   │   ├── req.body                                       ⏳
-   │   ├── express.json() → req.body                      ⏳
-   │   ├── async route handler                            ⏳
-   │   ├── await                                          ⏳
-   │   ├── try / catch                                    ⏳
-   │   ├── Employee.create()                              ⏳
-   │   ├── res.status()                                   ⏳
-   │   ├── 201 Created                                    ⏳
-   │   └── 400 error response                             ⏳
-   │
-   ├── 2.12 Save Employee to MongoDB                      ⏳
-   │   ├── Form data                                      ⏳
-   │   ├── JSON.stringify()                               ⏳
-   │   ├── JSON request body                              ⏳
-   │   ├── Express receives request                       ⏳
-   │   ├── express.json() parses JSON                     ⏳
-   │   ├── req.body                                       ⏳
-   │   ├── Employee.create(req.body)                      ⏳
-   │   ├── Mongoose validates against Schema              ⏳
-   │   ├── MongoDB document                               ⏳
-   │   ├── MongoDB saves employee                         ⏳
-   │   └── Created employee returned                      ⏳
-   │
-   ├── 2.13 GET Employees from MongoDB                    ⏳
-   │   ├── app.get()                                      ⏳
-   │   ├── GET /api/employees                             ⏳
-   │   ├── Employee.find()                                ⏳
-   │   ├── await Employee.find()                          ⏳
-   │   ├── Employee array                                 ⏳
-   │   ├── res.status(200)                                ⏳
-   │   ├── res.json()                                     ⏳
-   │   ├── try / catch                                    ⏳
-   │   └── 500 server error                               ⏳
-   │
-   ├── 2.14 Show Employees in React                       ⏳
-   │   ├── Employee TypeScript interface                  ⏳
-   │   ├── useState<Employee[]>()                         ⏳
-   │   ├── API_URL                                        ⏳
-   │   ├── fetchEmployees()                               ⏳
-   │   ├── fetch()                                        ⏳
-   │   ├── await fetch()                                  ⏳
-   │   ├── res.json()                                     ⏳
-   │   ├── setEmployees()                                 ⏳
-   │   ├── useEffect()                                    ⏳
-   │   ├── Empty dependency array []                      ⏳
-   │   ├── employees.map()                                ⏳
-   │   ├── key={emp._id}                                  ⏳
-   │   ├── FormData                                       ⏳
-   │   ├── form.get()                                     ⏳
-   │   ├── Number()                                       ⏳
-   │   ├── handleSubmit()                                 ⏳
-   │   ├── preventDefault()                               ⏳
-   │   ├── Content-Type: application/json                 ⏳
-   │   ├── JSON.stringify()                               ⏳
-   │   ├── form.reset()                                   ⏳
-   │   └── fetchEmployees() after POST                    ⏳
-   │
-   └── 2.15 Full React → API → MongoDB Flow               ⏳
-       ├── User fills employee form                       ⏳
-       ├── React collects form values                     ⏳
-       ├── handleSubmit()                                 ⏳
-       ├── POST /api/employees                            ⏳
-       ├── Headers + JSON payload                         ⏳
-       ├── Express receives request                       ⏳
-       ├── express.json() parses body                     ⏳
-       ├── req.body created                               ⏳
-       ├── Employee.create()                              ⏳
-       ├── Mongoose Schema + Model                        ⏳
-       ├── MongoDB Atlas stores document                  ⏳
-       ├── Express returns 201                            ⏳
-       ├── React calls fetchEmployees()                   ⏳
-       ├── GET /api/employees                             ⏳
-       ├── Employee.find()                                ⏳
-       ├── Express returns employee array                 ⏳
-       ├── setEmployees(data)                             ⏳
-       ├── React re-renders                               ⏳
-       └── Employee appears on UI                         ⏳
-
+├── 2.1 Node + npm                                       ✅
+│   ├── What is Node.js?                                 ✅
+│   ├── JavaScript runtime                               ✅
+│   ├── What is npm?                                     ✅
+│   ├── Packages                                         ✅
+│   ├── Dependencies                                     ✅
+│   ├── package.json                                     ✅
+│   ├── package-lock.json                                ✅
+│   ├── node_modules                                     ✅
+│   └── npm install                                      ✅
+│
+├── 2.2 React + TypeScript + Vite                        ✅
+│   ├── React's role in the project                      ✅
+│   ├── TypeScript's role                                ✅
+│   ├── What is Vite?                                    ✅
+│   ├── Vite development server                          ✅
+│   ├── Client project structure                         ✅
+│   ├── src folder                                       ✅
+│   ├── main.tsx                                         ✅
+│   ├── App.tsx                                          ✅
+│   ├── index.html                                       ✅
+│   ├── vite.config.ts                                   ✅
+│   └── tsconfig files                                   ✅
+│
+├── 2.3 Express + TypeScript                             ✅
+│   ├── What is Express?                                 ✅
+│   ├── Node.js vs Express                               ✅
+│   ├── Creating Express application                     ✅
+│   ├── app.listen()                                     ✅
+│   ├── PORT                                             ✅
+│   ├── Routes                                           ✅
+│   ├── req / res                                        ✅
+│   ├── Middleware                                       ✅
+│   ├── app.use()                                        ✅
+│   ├── express.json()                                   ✅
+│   └── TypeScript on the backend                        ✅
+│
+├── 2.4 Git + GitHub                                     ✅
+│   ├── Git vs GitHub                                    ✅
+│   ├── Repository                                       ✅
+│   ├── git init                                         ✅
+│   ├── git status                                       ✅
+│   ├── git add                                          ✅
+│   ├── git commit                                       ✅
+│   ├── git push                                         ✅
+│   └── .gitignore                                       ✅
+│
+├── 2.5 React → Express                                  ✅
+│   ├── Client and server run separately                 ✅
+│   ├── Client port vs server port                       ✅
+│   ├── API_URL                                          ✅
+│   ├── fetch()                                          ✅
+│   ├── Sending HTTP request                             ✅
+│   ├── Receiving HTTP response                          ✅
+│   ├── res.json()                                       ✅
+│   └── React → HTTP → Express flow                      ✅
+│
+├── 2.6 CORS                                             ✅
+│   ├── Why CORS is required                             ✅
+│   ├── Origin                                           ✅
+│   ├── localhost:5173 vs localhost:5000                 ✅
+│   ├── cors package                                     ✅
+│   └── app.use(cors())                                  ✅
+│
+├── 2.7 Environment Variables                            ✅
+│   ├── What is an environment variable?                 ✅
+│   ├── .env file                                        ✅
+│   ├── Why we use .env                                  ✅
+│   ├── PORT                                             ✅
+│   ├── MONGO_URI                                        ✅
+│   ├── Why secrets shouldn't be hardcoded               ✅
+│   ├── dotenv package                                   ✅
+│   ├── dotenv.config()                                  ✅
+│   ├── process.env                                      ✅
+│   ├── process.env.PORT                                 ✅
+│   ├── process.env.MONGO_URI                            ✅
+│   ├── `as string`                                      ✅
+│   ├── .env + .gitignore                                ✅
+│   └── Why .env should not be pushed to GitHub          ✅
+│
+├── 2.8 MongoDB Atlas + Mongoose                         ✅
+│   ├── MongoDB's role                                   ✅
+│   ├── What is MongoDB Atlas?                           ✅
+│   ├── Local database vs cloud database                 ✅
+│   ├── Atlas project / deployment                       ✅
+│   ├── Database user                                    ✅
+│   ├── Database username + password                     ✅
+│   ├── Network access                                   ✅
+│   ├── IP access                                        ✅
+│   ├── Connection string / URI                          ✅
+│   ├── What is Mongoose?                                ✅
+│   └── MongoDB vs Mongoose                              ✅
+│
+├── 2.9 Database Connection                              ✅
+│   ├── mongoose.connect()                               ✅
+│   ├── MONGO_URI                                        ✅
+│   ├── Connection Promise                               ✅
+│   ├── .then()                                          ✅
+│   ├── .catch()                                         ✅
+│   ├── Successful connection                            ✅
+│   ├── Failed connection                                ✅
+│   ├── app.listen() after DB connection                 ✅
+│   └── Complete database connection flow                ✅
+│
+├── 2.10 Employee Model                                  ✅
+│   ├── What is a Schema?                                ✅
+│   ├── What is a Model?                                 ✅
+│   ├── Schema vs Model                                  ✅
+│   ├── IEmployee interface                              ✅
+│   ├── Schema<IEmployee>                                ✅
+│   ├── String fields                                    ✅
+│   ├── Number fields                                    ✅
+│   ├── required: true                                   ✅
+│   ├── unique: true                                     ✅
+│   ├── timestamps: true                                 ✅
+│   ├── _id                                              ✅
+│   ├── createdAt / updatedAt                            ✅
+│   └── model<IEmployee>()                               ✅
+│
+├── 2.11 POST /api/employees                             ✅
+│   ├── app.post()                                       ✅
+│   ├── /api/employees                                   ✅
+│   ├── Request object — req                             ✅
+│   ├── Response object — res                            ✅
+│   ├── req.body                                         ✅
+│   ├── express.json() → req.body                        ✅
+│   ├── async route handler                              ✅
+│   ├── await                                            ✅
+│   ├── try / catch                                      ✅
+│   ├── Employee.create()                                ✅
+│   ├── res.status()                                     ✅
+│   ├── 201 Created                                      ✅
+│   └── 400 error response                               ✅
+│
+├── 2.12 Save Employee to MongoDB                        ✅
+│   ├── Form data                                        ✅
+│   ├── JSON.stringify()                                 ✅
+│   ├── JSON request body                                ✅
+│   ├── Express receives request                         ✅
+│   ├── express.json() parses JSON                       ✅
+│   ├── req.body                                         ✅
+│   ├── Employee.create(req.body)                        ✅
+│   ├── Mongoose validates against Schema                ✅
+│   ├── MongoDB document                                 ✅
+│   ├── MongoDB saves employee                           ✅
+│   └── Created employee returned                        ✅
+│
+├── 2.13 GET Employees from MongoDB                      ✅
+│   ├── app.get()                                        ✅
+│   ├── GET /api/employees                               ✅
+│   ├── Employee.find()                                  ✅
+│   ├── await Employee.find()                            ✅
+│   ├── Employee array                                   ✅
+│   ├── res.status(200)                                  ✅
+│   ├── res.json()                                       ✅
+│   ├── try / catch                                      ✅
+│   └── 500 server error                                 ✅
+│
+├── 2.14 Show Employees in React                         ✅
+│   ├── Employee TypeScript interface                    ✅
+│   ├── useState<Employee[]>()                           ✅
+│   ├── API_URL                                          ✅
+│   ├── fetchEmployees()                                 ✅
+│   ├── fetch()                                          ✅
+│   ├── await fetch()                                    ✅
+│   ├── res.json()                                       ✅
+│   ├── setEmployees()                                   ✅
+│   ├── useEffect()                                      ✅
+│   ├── Empty dependency array []                        ✅
+│   ├── employees.map()                                  ✅
+│   ├── key={emp._id}                                    ✅
+│   ├── FormData                                         ✅
+│   ├── form.get()                                       ✅
+│   ├── Number()                                         ✅
+│   ├── handleSubmit()                                   ✅
+│   ├── preventDefault()                                 ✅
+│   ├── Content-Type: application/json                   ✅
+│   ├── JSON.stringify()                                 ✅
+│   ├── form.reset()                                     ✅
+│   └── fetchEmployees() after POST                      ✅
+│
+└── 2.15 Full React → API → MongoDB Flow                 ✅
+    ├── User fills employee form                         ✅
+    ├── React collects form values                       ✅
+    ├── handleSubmit()                                   ✅
+    ├── POST /api/employees                              ✅
+    ├── Headers + JSON payload                           ✅
+    ├── Express receives request                         ✅
+    ├── express.json() parses body                       ✅
+    ├── req.body created                                 ✅
+    ├── Employee.create()                                ✅
+    ├── Mongoose Schema + Model                          ✅
+    ├── MongoDB Atlas stores document                    ✅
+    ├── Express returns 201                              ✅
+    ├── React calls fetchEmployees()                     ✅
+    ├── GET /api/employees                               ✅
+    ├── Employee.find()                                  ✅
+    ├── Express returns employee array                   ✅
+    ├── setEmployees(data)                               ✅
+    ├── React re-renders                                 ✅
+    └── Employee appears on UI                           ✅
 
 
 PHASE 2 — FRONTEND FOUNDATION
