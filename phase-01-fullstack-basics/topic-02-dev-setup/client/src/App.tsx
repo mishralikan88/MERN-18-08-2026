@@ -9,7 +9,7 @@ interface Employee {
   department: string;
   salary: number;
 }
-
+ 
 const API_URL = "http://localhost:5000/api/employees";
 
 function App() {
@@ -22,6 +22,7 @@ function App() {
   };
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- fetchEmployees only sets state after an awaited fetch, not synchronously
     fetchEmployees();
   }, []);
 
