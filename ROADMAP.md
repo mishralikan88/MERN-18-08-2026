@@ -23,7 +23,7 @@ GOAL
 └── Maintain Production Application
 
 
-PHASE 1 — FULL-STACK BASICS & PROJECT SETUP
+#### PHASE 1 — FULL-STACK BASICS & PROJECT SETUP
 
 1. HOW A WEB APPLICATION WORKS 
    ├── Frontend → Backend → Database           ✅
@@ -264,7 +264,7 @@ PHASE 1 — FULL-STACK BASICS & PROJECT SETUP
     └── Employee appears on UI                           ✅
 
 
-PHASE 2 — FRONTEND FOUNDATION
+#### PHASE 2 — FRONTEND FOUNDATION
 
 3. HTML — Practical Foundation
 ├── Semantic HTML
@@ -357,183 +357,951 @@ PRACTICAL
 
 PRACTICAL
 └── Complete responsive dashboard
-PHASE 3 — JAVASCRIPT
-6. JavaScript Core
-FOUNDATION
-├── Variables                         
-├── Data Types                        
-├── Type Conversion / Coercion        
-├── Operators                         
-├── Conditions                        
-├── Loops                             
-├── Functions                         
-├── Arrays                            
-├── Objects                           
-├── Strings                           
-├── Dates                             
-├── Sets                              
-└── Maps                              
+
+
+
+#### PHASE 3 — JAVASCRIPT
+
+# 6. JavaScript Core 🔥🔥🔥
+
+```text
+6. JAVASCRIPT CORE
+
+VARIABLES
+├── var / let / const
+├── Declaration
+├── Initialization
+├── Assignment
+├── Reassignment
+├── Redeclaration
+├── Scope Differences
+├── Hoisting Basics
+└── TDZ Basics
+
+
+DATA TYPES
+├── Primitive Types
+│   ├── string
+│   ├── number
+│   ├── boolean
+│   ├── undefined
+│   ├── null
+│   ├── bigint
+│   └── symbol
+├── Reference Types
+│   ├── Object
+│   ├── Array
+│   └── Function
+├── typeof
+├── instanceof
+├── Array.isArray()
+├── null vs undefined
+├── NaN
+└── Number.isNaN()
+
+
+TYPE CONVERSION / COERCION
+├── Explicit Conversion
+├── Implicit Coercion
+├── String()
+├── Number()
+├── Boolean()
+├── parseInt()
+├── parseFloat()
+├── Truthy / Falsy
+├── == vs ===
+├── != vs !==
+├── + Operator Coercion
+└── Output Questions
+
+
+OPERATORS
+├── Arithmetic
+├── Assignment
+├── Comparison
+├── Logical
+├── Unary
+├── Increment / Decrement
+├── Ternary
+├── typeof
+├── instanceof
+├── in
+├── Optional Chaining ?.
+├── Nullish Coalescing ??
+├── Logical Assignment
+│   ├── ||=
+│   ├── &&=
+│   └── ??=
+└── Short-Circuit Evaluation
+
+
+CONDITIONS
+├── if
+├── else
+├── else if
+├── switch
+├── Ternary
+├── Nested Conditions
+└── Guard Clauses
+
+
+LOOPS
+├── for
+├── while
+├── do...while
+├── for...of
+├── for...in
+├── break
+├── continue
+└── Nested Loops
 
 
 FUNCTIONS
-├── Declaration                       
-├── Expression                        
-├── Arrow                             
-├── Callback                          
-├── Higher-Order Function             
-├── Pure Function                     
-└── Recursion                         
+├── Function Declaration
+├── Function Expression
+├── Arrow Function
+├── Parameters / Arguments
+├── Default Parameters
+├── Rest Parameters
+├── Return
+├── Callback Function
+├── Higher-Order Function
+├── First-Class Functions
+├── Anonymous Functions
+├── Pure / Impure Functions
+├── IIFE
+├── Recursion
+└── Function Scope
 
 
 ARRAYS
-├── map()
-├── filter()
-├── reduce()
+
+BASICS
+├── Creating Arrays
+├── Accessing / Updating Values
+├── length
+├── Array.isArray()
+└── Iteration
+
+ADD / REMOVE
+├── push()
+├── pop()
+├── shift()
+├── unshift()
+└── splice()
+
+COPY / EXTRACT
+├── slice()
+├── Spread [...]
+├── Array.from()
+└── Array.of()
+
+SEARCH
+├── includes()
+├── indexOf()
+├── lastIndexOf()
 ├── find()
-├── findIndex()
+└── findIndex()
+
+ITERATION / TRANSFORMATION
+├── forEach()
+├── map() 🔥🔥🔥
+├── filter() 🔥🔥🔥
+├── reduce() 🔥🔥🔥
+├── reduceRight() Awareness
 ├── some()
-├── every()
-├── sort()
+└── every()
+
+SORTING
+├── sort() 🔥🔥
+├── Numeric Sorting
+├── String Sorting
+├── Object Sorting
+├── Ascending / Descending
+└── toSorted() Awareness
+
+OTHER METHODS
+├── concat()
+├── join()
+├── reverse()
 ├── flat()
-└── flatMap()
+├── flatMap()
+├── fill()
+└── at()
+
+
+ARRAY PRACTICAL 🔥🔥🔥
+├── Remove Duplicates
+├── Find Duplicates
+├── Frequency Counting
+├── Group Data
+├── Sort API Data
+├── Filter API Data
+├── Search Data
+├── Pagination Data
+├── Calculate Totals
+├── Merge Arrays
+├── Flatten Arrays
+├── Chunk Arrays
+├── Find Min / Max
+├── Nested Array Transformations
+└── Array ↔ Object Transformations
+
 
 
 OBJECTS
-├── References
-├── Shallow Copy
-├── Deep Copy
-├── Destructuring
-├── Spread
-├── Rest
+├── Object Creation
+├── Dot / Bracket Notation
+├── Dynamic Properties
+├── Add / Update / Delete
+├── Nested Objects
+├── Computed Properties
+├── Property Shorthand
+├── Method Shorthand
 ├── Object.keys()
 ├── Object.values()
-└── Object.entries()
+├── Object.entries()
+├── Object.fromEntries()
+├── Object.assign()
+├── Object.hasOwn()
+├── Object.create()
+├── Object.freeze()
+├── Object.seal()
+├── Mutation vs Immutability
+├── Shallow Copy
+├── Deep Copy Basics
+├── structuredClone()
+└── Optional Chaining
 
 
-PRACTICAL
-└── 50+ selective JavaScript problems
-7. JavaScript Internals
-├── Execution Context
-├── Call Stack
-├── Scope
+OBJECT PRACTICAL 🔥🔥🔥
+├── Merge Objects
+├── Update Nested Objects
+├── Remove Properties
+├── Dynamic Property Access
+├── Object ↔ Array
+├── Group Records
+├── Index Data by ID
+├── Count Property Values
+└── Normalize API Data
+
+
+DESTRUCTURING
+├── Array Destructuring
+├── Object Destructuring
+├── Nested Destructuring
+├── Default Values
+├── Renaming
+├── Rest with Destructuring
+└── Function Parameter Destructuring
+
+
+SPREAD / REST
+├── Array Spread
+├── Object Spread
+├── Rest Parameters
+├── Copying
+├── Merging
+└── Practical Usage
+
+
+STRINGS
+├── String Creation
+├── Template Literals
+├── length
+├── Character Access
+├── charAt()
+├── at()
+├── includes()
+├── indexOf()
+├── lastIndexOf()
+├── slice()
+├── substring()
+├── split()
+├── replace()
+├── replaceAll()
+├── trim()
+├── trimStart()
+├── trimEnd()
+├── startsWith()
+├── endsWith()
+├── toUpperCase()
+├── toLowerCase()
+├── repeat()
+├── concat()
+└── String Immutability
+
+
+STRING PRACTICAL
+├── Reverse String
+├── Reverse Words
+├── Palindrome
+├── Character Frequency
+├── Word Frequency
+├── Remove Duplicates
+├── Capitalize Words
+├── Search / Highlight
+├── URL Processing
+├── Email Parsing
+├── Slug Generation
+└── Form Input Cleanup
+
+
+DATES
+├── Date / new Date()
+├── Date.now()
+├── getTime()
+├── Date Getters
+├── Date Setters Awareness
+├── Date Comparison
+├── Date Difference
+├── Sorting by Date
+├── ISO Dates
+└── Formatting Basics
+
+
+DATE PRACTICAL
+├── Days Between Dates
+├── Expiry Check
+├── Age Calculation
+├── Latest / Oldest Sorting
+└── API Date Formatting
+
+
+SETS
+├── new Set()
+├── add()
+├── has()
+├── delete()
+├── clear()
+├── size
+├── Iteration
+├── Set ↔ Array
+└── Duplicate Removal
+
+
+MAPS
+├── new Map()
+├── set()
+├── get()
+├── has()
+├── delete()
+├── clear()
+├── size
+├── keys()
+├── values()
+├── entries()
+├── Iteration
+├── Map vs Object
+└── Frequency Map Usage
+
+
+JSON
+├── JSON vs JavaScript Object
+├── JSON.stringify()
+├── JSON.parse()
+├── Nested JSON
+└── API Response Handling
+
+
+MODULES
+├── import
+├── export
+├── export default
+├── Named Export
+├── Default Export
+├── Import Alias
+└── Named vs Default Export
+
+
+REGEX — PRACTICAL BASICS
+├── Basic Syntax
+├── Character Classes
+├── Anchors
+├── Quantifiers
+├── Flags
+├── test()
+├── match()
+├── replace()
+└── Common Validation / Search
+
+
+ERROR HANDLING
+├── Error Object
+├── throw
+├── try
+├── catch
+├── finally
+└── Custom Errors Basics
+
+
+CORE PRACTICAL 🔥🔥🔥  
+
+# >>
+
+├── 50+ Selective JS Problems
+├── Array Problems
+├── Object Problems
+├── String Problems
+├── Frequency Problems
+├── Grouping Problems
+├── Sorting / Search Problems
+├── Nested Data Problems
+├── Real API Transformations
+├── Output Questions
+├── Debugging Problems
+├── Refactoring Problems
+└── Explain Code While Coding
+```
+
+# 7. JavaScript Internals 🔥🔥🔥
+
+```text
+7. JAVASCRIPT INTERNALS
+
+EXECUTION
+├── JavaScript Execution Model
+├── Execution Context 🔥🔥🔥
+│   ├── Global Execution Context
+│   ├── Function Execution Context
+│   ├── Creation Phase
+│   └── Execution Phase
+└── Call Stack 🔥🔥🔥
+
+
+SCOPE
+├── Global Scope
+├── Function Scope
+├── Block Scope
 ├── Lexical Scope
 ├── Scope Chain
-├── Hoisting
-├── TDZ
-├── Closures
-├── var / let loop questions
-├── this
+└── Variable Lookup
+
+
+HOISTING
+├── var
+├── let
+├── const
+├── Function Declaration
+├── Function Expression
+├── Arrow Function
+└── Output Questions
+
+
+TEMPORAL DEAD ZONE
+├── TDZ Meaning
+├── let
+├── const
+├── TDZ Start / End
+└── Output Questions
+
+
+CLOSURES 🔥🔥🔥
+├── Closure Mental Model
+├── Lexical Environment
+├── Data Persistence
+├── Private State
+├── Function Factory
+├── Callbacks
+├── Event Handlers
+├── Timers
+├── Loops
+└── Practical Closure Problems
+
+
+VAR / LET LOOP QUESTIONS 🔥🔥
+├── var + setTimeout
+├── let + setTimeout
+├── Closure Solution
+└── Output Prediction
+
+
+THIS 🔥🔥🔥
+├── Global Context
+├── Regular Function
+├── Object Method
+├── Nested Function
+├── Arrow Function
+├── Constructor Function
+├── Class Method
+├── Event Handler Awareness
+├── Explicit Binding
+├── Lost this Context
+└── Fixing this
+
+
+CALL / APPLY / BIND
 ├── call()
 ├── apply()
 ├── bind()
-├── Prototype
+├── Differences
+├── Function Borrowing
+└── Practical Usage
+
+
+NEW OPERATOR
+├── Constructor Functions
+├── What new Does Internally
+├── Object Creation
+├── this Binding
+├── Prototype Linking
+└── Return Behaviour
+
+
+PROTOTYPES
+├── prototype
+├── __proto__ Awareness
 ├── Prototype Chain
-└── Classes
+├── Property Lookup
+├── Object.create()
+├── Constructor Functions
+├── Prototype Methods
+└── Inheritance Basics
 
 
-PRACTICAL
-├── Output prediction
-├── Event-loop questions
-└── Debugging questions
-8. Async JavaScript
+CLASSES
+├── class
+├── constructor
+├── Instance Methods
+├── extends
+├── super
+├── Static Methods
+├── Getters / Setters Awareness
+└── Private Fields Awareness
+
+
+STRICT MODE
+├── "use strict"
+└── Important Behaviour Differences
+
+
+REFERENCE BEHAVIOUR
+├── Primitive vs Reference Values
+├── Pass-by-Value Mental Model
+├── Object Reference Behaviour
+├── Mutation
+├── Immutability
+├── Shallow Copy
+├── Deep Copy
+├── Spread Limitations
+├── Object.assign() Limitations
+└── structuredClone()
+
+
+EQUALITY
+├── Primitive Equality
+├── Reference Equality
+├── == vs ===
+├── Object.is()
+├── NaN Cases
+└── instanceof
+
+
+MEMORY BASICS
+├── Stack / Heap Mental Model
+├── Primitive vs Reference Memory
+├── Garbage Collection
+├── Reachability
+├── Unreachable Objects
+└── Memory Leak Awareness
+
+
+COMMON MEMORY LEAKS
+├── Forgotten Timers
+├── Event Listeners
+├── Closures Holding References
+├── Global Variables
+└── Large Cached Objects
+
+
+INTERNALS PRACTICAL 🔥🔥🔥
+├── Output Prediction
+├── Scope Questions
+├── Hoisting / TDZ Questions
+├── Closure Questions
+├── var / let Loop Questions
+├── this Questions
+├── call / apply / bind Questions
+├── new Operator Questions
+├── Prototype Questions
+├── Mutation / Reference Questions
+├── Shallow vs Deep Copy Problems
+├── Debugging Questions
+└── Explain Execution Step-by-Step
+```
+
+# 8. Async JavaScript 🔥🔥🔥
+
+```text
+8. ASYNC JAVASCRIPT
+
 FOUNDATION
-├── Sync vs Async                     
-├── How JS handles async work         
-├── Event Loop                        
-├── Call Stack                        
-├── Web APIs                          
-├── Microtask Queue                   
-└── Task Queue                        
+├── Sync vs Async
+├── JavaScript Single Thread
+├── How JS Handles Async Work
+├── Call Stack
+├── Web APIs
+├── Event Loop 🔥🔥🔥
+├── Microtask Queue 🔥🔥🔥
+├── Task / Macrotask Queue
+├── Microtask Priority
+└── Execution Order
+
+
+TIMERS
+├── setTimeout()
+├── clearTimeout()
+├── setInterval()
+├── clearInterval()
+├── Zero-Delay Behaviour
+└── Timer Output Questions
 
 
 CALLBACKS
 ├── Callback
+├── Sync Callback
+├── Async Callback
+├── Error-First Callback Awareness
+├── Nested Callbacks
 └── Callback Hell
 
 
-PROMISES
+PROMISES 🔥🔥🔥
 ├── Promise
 ├── Creating Promise
+├── Promise Executor
+├── resolve()
+├── reject()
 ├── Pending / Fulfilled / Rejected
+├── Promise.resolve()
+├── Promise.reject()
 ├── then()
 ├── catch()
 ├── finally()
+├── Returning Values from then()
+├── Returning Promises from then()
 ├── Promise Chaining
-└── Promise Hell
+├── Promise Return Rules
+├── Error Propagation
+├── Throwing Inside then()
+├── Recovering in catch()
+├── finally() Behaviour Awareness
+├── Promise Hell
+└── Promise Output Questions
 
 
-ASYNC / AWAIT
+ASYNC / AWAIT 🔥🔥🔥
 ├── async
 ├── await
+├── What async Returns
+├── What await Does
 ├── Rejected Promises
-├── Error Handling
-└── try / catch
+├── try / catch / finally
+├── Sequential Await
+├── Parallel Execution 🔥🔥🔥
+├── await in Loops
+├── Common Performance Mistakes
+└── async/await vs Promise Chains
 
 
-HTTP
+FETCH / HTTP 🔥🔥🔥
 ├── fetch()
-├── Response Handling
+├── Request
+├── Response
 ├── JSON
+├── response.json()
 ├── GET
 ├── POST
+├── PUT
+├── PATCH
+├── DELETE
+├── Headers
+├── Content-Type
+├── Request Body
+├── Query Parameters
 ├── HTTP Errors
-└── AbortController
+├── response.ok
+├── response.status
+├── Network Error vs HTTP Error
+├── AbortController
+└── Request Cancellation
+
+
+REAL API PRACTICAL 🔥🔥🔥
+├── Fetch List
+├── Fetch by ID
+├── Create Record
+├── Update Record
+├── Delete Record
+├── Loading State Logic
+├── Error Handling
+├── Empty State
+├── Retry Failed API
+├── Parallel API Calls
+├── Sequential API Calls
+├── Cancel Search Requests
+└── Transform API Responses
 
 
 PROMISE COMBINATORS
-├── Promise.all()
+├── Promise.all() 🔥🔥🔥
 ├── Promise.allSettled()
 ├── Promise.race()
-└── Promise.any()
+├── Promise.any()
+├── Failure Behaviour
+└── When to Use Which
 
 
-INTERVIEW
-├── Execution-order problems
-├── Timer + Promise output
+ASYNC ITERATION
+├── for...of + await
+├── Promise.all() + map()
+├── Why forEach + await Is Problematic
+├── Sequential Processing
+└── Parallel Processing
+
+
+ASYNC ERROR HANDLING
+├── catch()
+├── try/catch
+├── throw
+├── Error Propagation
+├── Partial Failure
+├── Retry Strategies
+└── finally Cleanup
+
+
+RACE CONDITIONS
+├── Multiple Requests
+├── Stale Response Problem
+├── Search Request Race
+├── Request Cancellation
+└── Latest Request Wins Pattern
+
+
+ASYNC PRACTICAL 🔥🔥🔥
+├── Execution-Order Problems
+├── Timer + Promise Output
 ├── Microtask vs Task
-├── Debug async code
-└── API failure handling
-9. Advanced Practical JavaScript
-PATTERNS
-├── Debounce
-├── Throttle
-├── Currying
-├── Memoization
-├── Function Composition
+├── Nested Promise Questions
+├── async/await Output Questions
+├── Sequential vs Parallel Problems
+├── Multiple API Calls
+├── Debug Async Code
+├── API Failure Handling
+├── Retry Failed Request
+├── Timeout Request
+├── Cancel Request
+├── Race-Condition Problems
+└── Explain Event Loop While Coding
+```
+
+# 9. Advanced Practical JavaScript 🔥🔥🔥
+
+```text
+9. ADVANCED PRACTICAL JAVASCRIPT
+
+FUNCTION PATTERNS
+
+DEBOUNCE 🔥🔥🔥
+├── Concept
+├── Implementation
+├── Search Input
+├── API Search
+└── Leading / Trailing Awareness
+
+
+THROTTLE 🔥🔥🔥
+├── Concept
+├── Implementation
+├── Scroll
+├── Resize
+└── Repeated Click Prevention
+
+
+CURRYING
+├── Basic Currying
+├── Multiple Arguments
+├── Infinite Currying Awareness
+└── Practical Usage
+
+
+MEMOIZATION
+├── Cache
+├── Arguments → Result
+├── Implementation
+└── Practical Usage
+
+
+FUNCTION COMPOSITION
+├── compose()
+├── pipe()
+└── Transformation Pipeline
+
+
+ONCE
 ├── once()
+├── Prevent Repeated Execution
+└── Implementation
+
+
+RETRY
 ├── retry()
-└── EventEmitter
+├── Retry Count
+├── Delay
+├── Promise Retry
+└── API Retry
 
 
-BUILD YOURSELF
+ARRAY POLYFILLS 🔥🔥🔥
+├── myForEach()
 ├── myMap()
 ├── myFilter()
 ├── myReduce()
+├── myFind()
+├── mySome()
+└── myEvery()
+
+
+FUNCTION POLYFILL AWARENESS
+├── custom call()
+├── custom apply()
+└── custom bind()
+
+
+BUILD UTILITIES 🔥🔥🔥
 ├── flatten()
+├── flattenDepth()
 ├── groupBy()
+├── chunk()
+├── unique()
 ├── deepClone()
+├── deepEqual()
+├── deepGet()
+├── deepSet()
 ├── debounce()
 ├── throttle()
 ├── curry()
 ├── memoize()
 ├── once()
-└── retry()
+├── retry()
+├── compose()
+└── pipe()
 
 
-PROMISE IMPLEMENTATIONS
+DATA TRANSFORMATION 🔥🔥🔥
+├── Array → Object
+├── Object → Array
+├── Group by Property
+├── Index by ID
+├── Frequency Map
+├── Deduplicate Objects
+├── Merge API Results
+├── Sort Nested Records
+├── Filter Nested Records
+├── Flatten Nested Response
+├── Tree → Flat
+├── Flat → Tree
+├── Parent / Child Mapping
+└── Normalize API Response
+
+
+MACHINE-CODING UTILITIES 🔥🔥🔥
+├── Search
+├── Filter
+├── Sort
+├── Pagination
+├── Infinite Scroll Logic
+├── Debounced Search
+├── Form Validation
+├── Dynamic Filters
+├── Multi-Column Sorting
+├── Selected Items Logic
+├── Toggle Selection
+├── Select All
+├── Pagination Calculations
+├── Cache API Response
+└── Request Deduplication Awareness
+
+
+PROMISE IMPLEMENTATIONS 🔥🔥
 ├── Custom Promise.all()
 ├── Custom Promise.allSettled()
 ├── Custom Promise.race()
 └── Custom Promise.any()
 
 
-EVENT SYSTEM
+EVENT SYSTEM 🔥🔥
 └── EventEmitter
     ├── on()
     ├── emit()
     ├── off()
     └── once()
-PHASE 4 — TYPESCRIPT
+
+
+STRING UTILITIES
+├── Capitalize
+├── camelCase
+├── kebab-case
+├── snake_case
+├── Slugify
+├── Truncate
+└── Highlight Search Text
+
+
+DOM / BROWSER PRACTICAL
+├── DOM Selection
+├── Event Handling
+├── Event Object
+├── preventDefault()
+├── Event Bubbling
+├── Event Capturing Awareness
+├── Event Delegation 🔥🔥
+├── localStorage
+├── sessionStorage
+├── JSON Storage
+├── Storage CRUD
+└── Browser Timers
+
+
+ADVANCED AWARENESS — LOW PRIORITY
+├── WeakMap
+├── WeakSet
+├── Symbol
+├── Iterators
+├── Generators
+├── Symbol.iterator
+├── Property Descriptors
+├── Object.defineProperty()
+├── Proxy
+└── Reflect
+
+
+FINAL INTERVIEW PRACTICAL 🔥🔥🔥
+├── Coding Problems
+├── Output Prediction
+├── Debugging
+├── Code Refactoring
+├── Array / Object / String Problems
+├── Frequency Problems
+├── Data Transformations
+├── Nested Data Problems
+├── Polyfills
+├── Closure Problems
+├── this Problems
+├── Promise Problems
+├── Event Loop Problems
+├── Async Problems
+├── Real API Problems
+├── Error Handling Problems
+├── Performance Problems
+├── Edge Cases
+├── Explain While Coding
+└── Timed No-AI Practice
+```
+
+
+#### PHASE 4 — TYPESCRIPT
+
 10. TypeScript for Full-Stack Development
 CORE
 ├── Types
@@ -593,7 +1361,11 @@ PRODUCTION TYPESCRIPT
 
 PRACTICAL
 └── Convert/build application using strict TypeScript
+
+
+
 PHASE 5 — REACT
+
 11. React Core
 ├── JSX
 ├── Components
@@ -625,6 +1397,7 @@ PRACTICAL
 ├── useTransition
 ├── useDeferredValue
 └── Custom Hooks
+
 13. React Router
 ├── Routing
 ├── Dynamic Routes
@@ -635,6 +1408,7 @@ PRACTICAL
 ├── Role-Based Routes
 ├── Lazy Routes
 └── 404
+
 14. Forms & Validation
 ├── React Forms
 ├── React Hook Form
@@ -643,6 +1417,7 @@ PRACTICAL
 ├── Dynamic Forms
 ├── Server Errors
 └── File Inputs
+
 15. State Management
 STATE TYPES
 ├── Local
@@ -674,6 +1449,7 @@ RTK QUERY
 ├── Cache
 ├── Invalidation
 └── Optimistic Updates
+
 16. React Architecture & Performance
 ├── Feature-Based Architecture
 ├── Reusable Components
@@ -689,6 +1465,7 @@ RTK QUERY
 ├── Code Splitting
 ├── Virtualization
 └── Profiling
+
 PHASE 6 — FRONTEND MACHINE CODING
 17. Machine Coding
 BASIC
